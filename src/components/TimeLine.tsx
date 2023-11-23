@@ -8,7 +8,7 @@ const TimeLine = () => {
                         initial={{ opacity: 0, scale: 0.5 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5, delay: 0.3 }}
-                        className="timeline-start timeline-box"> React </motion.div>
+                        className="timeline-start timeline-box"> React Remix  NextJs </motion.div>
                     <div className="timeline-middle">
                         <img width="25" height="25" src="https://img.icons8.com/color/25/react-native.png" alt="react-native" />
                     </div>

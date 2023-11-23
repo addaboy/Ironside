@@ -46,7 +46,7 @@ export default function Header() {
                 </div>
                 {/* links section  */}
 
-                <div className={`flex-1 justify-self-center  pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
+                <div className={`flex-1 justify-self-center ml-4  pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
                     <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                         {
                             navigation.map((item, idx) => {
