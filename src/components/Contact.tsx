@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const Contact = () => {
     const [openForm, setOpenForm] = useState(false);
     return (
-        <main id="contact" className="py-14 min-h-screen">
+        <main id="contact" className="py-14 min-h-1/2">
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="max-w-lg mx-auto space-y-3 sm:text-center">
 
